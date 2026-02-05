@@ -1,0 +1,49 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Proposal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Floating Hearts Background -->
+    <div class="floating-hearts">
+        <span>❤️</span>
+        <span>💖</span>
+        <span>💕</span>
+        <span>❤️</span>
+        <span>💖</span>
+        <span>💕</span>
+        <span>❤️</span>
+        <span>💖</span>
+        <span>💕</span>
+        <span>❤️</span>
+    </div>
+
+    <!-- State 1: Valentine Question Screen -->
+    <div id="question-screen" class="screen active">
+        <div class="container">
+            <div class="heart-icon">❤️</div>
+            <h1>Will You Be My Valentine</h1>
+            <h2>Ashnooor ?</h2>
+            <div class="buttons">
+                <button id="yes-button" class="yes-button">Yes! 💖</button>
+                <button id="think-button" class="think-button">Think again!</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- State 2: Celebration Screen -->
+    <div id="celebration-screen" class="screen">
+        <div class="container">
+            <h1>Yay! I Love You!</h1>
+            <p>You made me the happiest!</p>
+            <div class="emojis">✨💖💕❤️💫</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
